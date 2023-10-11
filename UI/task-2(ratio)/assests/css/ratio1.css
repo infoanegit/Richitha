@@ -1,0 +1,601 @@
+body{
+    margin: 0%;
+    padding:0%;
+    font-family: 'Roboto', sans-serif; 
+}
+.bg{
+    background-image: url(https://edge.mwallpapers.com/photos/celebrities/travel/russian-army-soldier-wallpaper-android-iphone-hd-wallpaper-background-downloadhd-wallpapers-desktop-background-android-iphone-1080p-4k-m2sen.jpg),linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    height: 900px;
+    background-blend-mode: overlay;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+}
+#nav{
+    color: white;
+    align-items: center;
+    margin-top: 30px;
+}
+div a{
+    color: white;
+    text-decoration: none;
+    padding: 29px;
+    position: relative;
+    bottom: -3%;
+}
+.login{
+    position: relative;
+    bottom: -3%;
+}
+#ratio{
+    font-size: 50px;
+    font-weight: 800;
+    font-family: serif;
+}
+.ratio{
+    height: 200px;
+}
+a:first-child{
+    color: rgb(62, 151, 179);
+}
+#login{
+    padding: 10px;
+    color:white ;
+    font-size: 10px;
+    background-color:rgb(17, 103, 129) ;
+    border-radius: 100%;
+    margin-left: 10px;
+}
+#content{
+   position: absolute;
+   top: 5%;
+   margin-left: 150px;
+   width: 50%;
+   font-size: 40px;
+}
+#ourpassion{
+    color: white;
+    margin-top: 170px;
+    width: 20%;
+    font-size: 80px;
+    font-family: serif;
+    font-weight: 800;
+}
+#ourpassion-para{
+    color: rgb(187, 179, 179);
+    font-size: 40px;
+    font-weight: 100;
+}
+#button-1{
+    border: 1px solid rgb(17, 103, 129);
+    background-color: rgb(17, 103, 129);
+    border-radius: 25px;
+    color: white;
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+    padding: 2px;  
+}
+#button-10{
+    border: 1px solid rgb(17, 103, 129);
+    background-color: rgb(17, 103, 129);
+    border-radius: 25px;
+    color: white;
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+    padding: 2px;
+}
+#explore{
+    margin-left: 15px;
+    padding: 5px;
+    color: rgb(17, 103, 129);
+    border-radius: 100%;
+    background-color: white;
+}
+.bg-aboutus{
+    background-color: rgb(37, 36, 36);
+    height: 450px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 7%;
+}
+#aboutusheading{
+    color: rgb(155, 152, 152);
+    font-size: 60px;
+    margin-left: 09%;
+    opacity: 0.5;
+    padding-bottom: 10%;
+}
+#aboutusheading1{
+    color: rgb(155, 152, 152);
+    font-size: 60px;
+    margin-left: 09%;
+    opacity: 0.5;
+    padding-bottom: 10%;
+}
+#aboutuspara{
+    color: rgb(224, 221, 221);
+    width: 40%;
+   font-size: 35px;
+   font-weight: 100;
+   padding: 10px;
+   margin-left: 10%;
+}
+#laptop{
+    position: absolute;
+    right: 10%;
+    height: 380px;
+}
+#button-2{
+    border: 1px solid rgb(17, 103, 129);
+    background-color: rgb(17, 103, 129);
+    border-radius: 25px;
+    color: white;
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+    margin-left: 10%;
+}
+.button-2{
+    border: 1px solid rgb(17, 17, 17);
+    background-color: rgb(0, 0, 0);
+    border-radius: 25px;
+    color: white;
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+    margin-left: 40%;
+}
+#explore-1{
+    margin-left: 15px;
+    padding: 5px;
+    color: rgb(17, 17, 17);
+    border-radius: 100%;
+    background-color: white;
+}
+.bg-ana{
+    background-color:rgb(37, 36, 36);
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 80px;
+}
+#analytics{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    margin: 5px 0px;
+}
+#icons{
+    color: rgb(17, 103, 129);
+    font-size: 30px;
+    margin-left: 17%;
+    margin: 5px 0px;
+}
+#number{
+    font-size: 30px;
+    font-weight: 500;
+    margin: 5px 0px;
+}
+#ana-para{
+    color:rgb(155, 152, 152) ;
+    font-size: 20px;
+    margin: 5px 0px;
+}
+.bg-ecoverse{
+    background-color:rgb(37, 36, 36) ;
+    height: 850px;
+}
+#ecoverse1{
+    border: 1px solid rgb(17, 103, 129);
+    background-color:rgb(17, 103, 129) ;
+    border-radius:15px 0px 0px 15px;
+    margin-left: 10%;
+    height: 700px;
+}
+#ecov-head{
+    color: rgb(155, 152, 152);
+    font-size: 50px;
+    font-weight: 400;
+    margin-top: 5%;
+   margin-left: 40%;  
+}
+#ecoverse2{
+   margin-left: 5%;
+   position:relative;
+   bottom: 65%;
+}
+#product-img{
+    border: 5px solid rgb(17, 103, 129)  ;
+    height: 400px;
+    border-radius: 2%;
+}
+#ecov-para{
+    color: rgb(224, 221, 221);
+    width: 50%;
+    font-size:30px;
+    font-weight: 100;
+    padding: 10px;
+    margin-left: 39%;
+    position: relative;
+    bottom: 5%;
+}
+#ecov-sub-para{
+    color: rgb(196, 192, 192);
+    margin-left: 40%;
+    font-size: 20px;
+    width: 55%;
+    position: relative;
+    bottom: 8%;
+}
+#button-3{
+    border: 1px solid black;
+    background-color:black;
+    padding: 10px;
+    border-radius: 25px;
+    color: white;
+    margin-left: 40%;
+    font-size: 20px;
+    width: 180px;
+    height: 50px;
+    position: relative;
+    bottom: 5%;
+}
+#signup{
+    padding: 10px;
+    color:white;
+    border-radius: 100%;
+    background-color:rgb(17, 103, 129);
+}
+.sub-ratio{
+    background-color: rgb(37, 36, 36);
+    height: 900px;
+}
+#subscription{
+    border: 1px solid rgb(78, 75, 75) ;
+    background-color:rgb(78, 75, 75);
+    background-color:hsl(60, 1%, 26%);
+    height:800px;
+    width: 450px;
+    margin-left: 10%;
+    border-radius: 40px;
+}
+#sub-head{
+    color: white;
+    font-size: 40px;
+    margin-left: 10%;
+}
+#sub-para{
+    color:rgb(153, 151, 151) ;;
+    font-size: 25px;
+    margin-left: 10%;
+    width: 80%;
+}
+#img-subscription{
+    border: 2px solid rgb(160, 153, 153);
+    margin-left: 15%;
+    width: 300px;
+    height: 250px;
+    border-radius: 16px; 
+    position: relative;
+    top: 5%;
+}
+#payments{
+    border: 1px solid rgb(78, 75, 75) ;
+    background-color:rgb(78, 75, 75) ;
+    background-color:hsl(60, 1%, 26%);
+    height: 375px;
+    width: 700px;
+    margin-left: 45%;
+    border-radius: 40px;
+    position: relative;
+    bottom: 88%;
+}
+#analytics1{
+    border: 1px solid rgb(78, 75, 75) ;
+    background-color:rgb(78, 75, 75) ;
+    background-color:hsl(60, 1%, 26%);
+    height: 375px;
+    width: 700px;
+    margin-left: 45%;
+    border-radius: 40px;
+    position: relative;
+    bottom: 84%;
+}
+#pay-head{
+    color: white;
+    font-size: 40px;
+    margin-left: 10%;
+}
+#pay-para{
+    color:rgb(153, 151, 151) ;;
+    font-size: 25px;
+    margin-left: 10%;
+    width: 50%;
+}
+#img-payments{
+    border-radius:5% 0% 0% 5%;
+    margin-left: 66%;
+    height: 210px;
+    position: relative;
+    bottom: 55%;
+}
+#nav-bar{
+    display: flex;
+    padding: 20px 150px;
+}
+#analy-head{
+    color: white;
+    font-size: 40px;
+    margin-left: 10%;
+}
+#analy-para{
+    color:rgb(153, 151, 151) ;;
+    font-size: 25px;
+    margin-left: 10%;
+    width: 50%;
+}
+#img-analytics{
+    border:  2px solid rgb(160, 153, 153);
+    height: 180px;
+    width: 200px;
+    margin-left: 62%;
+    position: relative;
+    bottom: 60%;
+    border-radius: 40px;
+}
+#exchange1{
+    border: 1px solid rgb(17, 103, 129);
+    background-color:rgb(17, 103, 129) ;
+    border-radius:0px 15px 15px 0px;
+    margin-right: 10%;
+    height: 700px;
+    width: 80%;
+}
+#exch-head{
+    color: rgb(155, 152, 152);
+    font-size: 50px;
+    font-weight: 400;
+    margin-left: 10%;
+    width: 45%;  
+    padding-top: 20px;
+}
+#exch-para{
+    color: rgb(224, 221, 221);
+    width: 55%;
+    margin-left: 10%;
+   font-size: 35px;
+   font-weight: 100;
+}
+#exch-sub-para{
+    color: rgb(196, 192, 192);
+    margin-left: 10%;
+    font-size: 20px;
+    width: 55%;
+}
+.button-11{
+    border: 1px solid rgb(17, 17, 17);
+    background-color: rgb(0, 0, 0);
+    border-radius: 25px;
+    color: white;
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+    margin-left: 10%;
+}
+#button-4{
+    border: 1px solid black;
+    background-color:black;
+    padding: 5px;
+    border-radius: 25px;
+    color: white;
+    margin-left: 10%;
+    font-size: 20px;
+    width: 180px;
+    height: 50px;
+}
+#exchange2{
+    margin-left: 60%;
+    position: relative;
+    bottom: 68%;
+}
+.bg-test{
+    background-color: rgb(37, 36, 36);
+    height: 650px;
+    padding: 20px;
+}
+#test-head{
+    color: white;
+    font-size: 50px;
+    font-weight: 200;
+    margin-left: 11%;
+}
+u{
+    text-underline-offset: 0.5cm;
+}
+#left-double{
+    color: white;
+    margin-left: 11%;
+    font-size: 30px;
+}
+#test-para{
+    color:rgb(153, 151, 151) ;;
+    font-size: 25px;
+    margin-left: 15%;
+    width: 50%;
+}
+#right-double{
+    color: white;
+    margin-left: 47%;
+    font-size: 30px;
+}
+#less-than{
+    color: white;
+    margin-left: 15%;
+    font-size: 30px;
+    position: relative;
+    top: 10%;
+}
+b{
+    color: white;
+    font-size: 50px;
+    font-weight: 500;
+    margin-left: 2%;
+    position: relative;
+    top: 10%;
+}
+small{
+    color: rgb(155, 152, 152);
+    font-size: 20px;
+    position: relative;
+    top: 10%;
+}
+#greater-than{
+    color: rgb(124, 120, 120);
+    margin-left: 3%;
+    font-size: 30px;
+    position: relative;
+    top: 10%;
+}
+#img-test{
+    border-radius: 16px;
+    margin-left: 70%;
+    width: 300px;
+    position: absolute;
+   top: 4570px;
+   right: 100px;
+}
+.bg-footer{
+    background-color: black;
+    height: 870px;
+}
+#footer-head{
+    display: flex;
+    margin:0% 7% 0% 7%;
+   padding-top: 80px;
+}
+#ratio1{
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+    height: 80px;
+}
+#subscribe{
+    color: rgb(151, 147, 147);
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 3%;
+}
+#ratio-btn{
+    border: 1px solid white;
+    color: white;
+    background-color: black;
+    height: 40px;
+    width: 300px;
+    border-radius: 18px;
+    padding-right: 180px;
+    margin-left: 12%;
+}
+#jim{
+    color:white;
+    border-radius: 100%;
+    background-color:rgb(17, 103, 129);
+    padding: 5%;
+    margin-left: 260px;
+    text-align: left;
+    position: relative;
+    bottom: 100%;
+}
+#talk{
+    border: 1px solid rgb(17, 103, 129);
+    background-color: rgb(17, 103, 129);
+    border-radius: 25px;
+    color: white;
+    font-size: 20px;
+    width: 180px;
+    height: 40px;
+    margin-left: 5%;
+    text-align: left;
+}
+#explore1{
+    margin-left: 20px;
+    padding: 6px;
+    color:white;
+    border-radius: 100%;
+    background-color: black;
+}
+.list{
+    display: flex;
+    justify-content: space-around;
+}
+#list1{
+    display: flex;
+    flex-direction: column;
+    color: rgb(151, 147, 147);
+    font-size: 25px;
+}
+ol{
+    list-style-type: none;
+}
+li{
+    padding: 4px 0px;
+}
+#weekly-btn{
+    border: 1px solid white;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    font-size: 20px;
+    margin: 3% 0px 0px 9%;
+    padding: 3px 10px 3px 15px;
+}
+.weekly-btn{
+    border: 1px solid white;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-left: 3%;
+    padding: 3px 10px 3px 15px;
+}
+#explore1r{
+    margin-left: 15px;
+    padding: 6px;
+    color:white;
+    border-radius: 100%;
+    background-color: black;
+}
+.para{
+    color: rgb(151, 147, 147);
+    font-size: 25px;
+    margin-left: 65%;
+    position: relative;
+    bottom: 60px;
+}
+.span{
+    margin-left: 85%;
+    position: relative;
+    bottom: 119px;
+}
+#foot-icn{
+    color: white;
+    font-size: 30px;
+    padding: 0px 10px;
+}
+.copyright{
+    color: rgb(151, 147, 147);
+    font-size: 18px;
+    text-align: center;
+}
+
+ 
+
+
+
+
+
+
