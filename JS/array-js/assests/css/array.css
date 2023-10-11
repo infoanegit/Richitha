@@ -1,0 +1,15 @@
+#output1{
+    border: 1px solid;
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+}
+#output2{
+    border: 1px solid;
+    background-color:rgb(65, 107, 23);
+    color: white;
+    border-radius: 20px;
+}
+.container{
+    width: 50%;
+}

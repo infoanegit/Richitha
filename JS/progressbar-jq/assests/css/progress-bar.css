@@ -1,0 +1,24 @@
+.progress {
+    background-color: rgb(85, 97, 230);
+    border-radius: 7px;
+  }
+#decrement-btn{
+    border: 1px solid red;
+    border-radius: 5px;
+    color:white;
+    background-color: red;
+    width: 30px;
+}
+#increment-btn{
+    border: 1px solid rgb(15, 127, 37);
+    border-radius: 5px;
+    color:white;
+    background-color:rgb(15, 127, 37);
+    width: 30px;
+    position: relative;
+    left: 100px;
+}
+#progress-label{
+    color: white;
+    font-weight: 400;
+}
