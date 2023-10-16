@@ -1,0 +1,44 @@
+.bg{
+    color:1px solid black;
+    background-color:black;
+    width:700px;
+    height:400px;
+    margin-left:550px;
+    border-radius:10px;
+}
+h1{
+    color:white;
+    font-size:50px;
+    padding:45px;
+}
+label{
+    color:yellow;
+    font-size:35px;
+    margin-left:100px;
+}
+input{
+    padding:10px;
+    width:250px;
+}
+#submitbtn{
+    border:1px solid green;
+    background-color:green;
+    color:white;
+    border-radius:5px;
+    margin-top:50px;
+    margin-left:310px;
+     padding:10px 0px;
+     font-size:20px;
+     width:100px;
+     
+}
+p{
+    background-color:black;
+    padding:50px;
+    color:white;
+    width:600px;
+    margin-left:550px;
+     border-radius:10px;
+     font-size:40px;
+     text-align:center;
+}
