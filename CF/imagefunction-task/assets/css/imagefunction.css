@@ -1,0 +1,18 @@
+.bg-color{
+    border:20px solid #a42090;
+    padding:0px 10px 10px;
+}
+#list{
+    text-decoration:none;
+    color:black;
+}
+.bg-thumbnail{
+    border:20px solid rgb(70, 149, 251);
+    padding:0px 10px 10px;
+}
+a{
+    color:rgb(35, 204, 230);
+}
+.bg-details{
+    border:50px solid rgb(58, 62, 204);
+ }
