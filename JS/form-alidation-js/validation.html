@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Document</title>
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+            <link rel="stylesheet" href="./assests/css/validation.css">
+            <script src="./assests/js/valid.js"></script>
+        </head>
+        <body>
+        <!-----------------------Starting of heading section------------>
+            <div class="container bg-light form-border">
+                <div class="row border text-center bg-light bg">
+                    <div class="col head p-3">
+                        <h1 id="heading">Create Account</h1>
+                </div>
+            </div>
+        <!-----------------------Ending of heading section------------>
+
+        <!-------------------------Starting of Form-------------------->
+        <form name="myform" method="post" action="validation.html" id="second_form">
+            <div class="row">
+                <div class="col-6 mb-3 mt-3">
+                    <label for="firstname" id="labels">First name *</label>
+                    <input type="text" class="form-control" placeholder="enter your first name" name="firstname" id="fname">
+                </div>
+                <div class="col-6  mb-3 mt-3">
+                    <label for="lastname" id="labels">Last name</label>
+                    <input type="text" class="form-control" placeholder="enter your last name" name="lastname" id="lname">
+                </div>
+            </div>
+            <div class="row">
+                <div class="mb-3 mt-3">
+                    <label for="email" id="labels">Email *</label>
+                    <input type="email" class="form-control" placeholder="enter  your email" name="email" id="email">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6 mb-3 mt-3">
+                    <label for="password" id="labels">Password *</label>
+                    <input type="password" class="form-control"  class="form-control" name="pswd"  id="pswd1">
+                </div>
+                <div class="col-6  mb-3 mt-3">
+                    <label for="pwd" id="labels">Confirm Password *</label>
+                    <input type="password" class="form-control" id="pswd2" placeholder="enter your password again" name="pswd">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6 mb-3 mt-3">
+                    <label for="male" id="labels">Gender :</label>
+                <div>
+                    <input type="radio" name="gender" value="male" id="gender">
+                    <label for="male"id="radio">Male</label>
+                    <input type="radio" value="female">
+                    <label for="female" name="gender" id="radio" id="gender">Female</label>
+                    <div id="dis"></div>
+                </div>
+            </div>
+            <div class="col-6  mb-3 mt-3">
+                <label for="pwd" id="labels">Hobbies :</label>
+                    <div>
+                        <input type="checkbox"  value="music" name="checkbox" id="checkbox">
+                        <label for="music"  class="radio">Music</label>
+                        <input type="checkbox" value="sports" name="checkbox" id="checkbox">
+                        <label for="sports"  class="radio">Sports</label>
+                        <input type="checkbox"  value="travel" name="checkbox" id="checkbox">
+                        <label for="travel"  class="radio">Travel</label>
+                        <input type="checkbox"value="movies" name="checkbox" id="checkbox">
+                        <label for="movies"  class="radio">Movies</label>
+                        <div id="hobbie"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6 mb-3 mt-3">
+                    <label for="income" id="labels">Source of Income</label>
+                    <select class="form-select mt-2  radio"  id="income">
+                        <option>Employed</option>
+                        <option>UnEmployed</option>
+                    </select>
+                </div>
+                <div class="col-6  mb-3 mt-3">
+                    <label for="customRange" class="form-label" id="labels">Custom range</label>
+                        <div>
+                            <input type="range" name=""  style="width: 90%;" class="" id="range">
+                            <p for="" class="btn border  bg-success text-light" >20k</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6 mb-3 ">
+                        <label for="picture" id="labels">Upload Profile Picture</label>
+                    <div>
+                        <input type="file" class="pt-2 radio"  placeholder="" name="pic" id="picture">
+                    </div>
+                </div>
+                <div class="col-6  mb-3">
+                    <label for="age" id="labels">Age</label>
+                    <input type="number" class="form-control radio pt-2" name="age" minlength="18" maxlength="100" id="age">
+                </div>
+            </div>
+            <div class="row">
+                <div class="mb-3 ">
+                    <label for="bio" id="labels">Bio</label><div class="error text-danger"></div>
+                        <textarea class="form-control" rows="4"  id="bio"></textarea>  
+                </div>
+                    <!--------------------------Create Button---------------->
+                    <div class="p-3  head">
+                            <input type="submit" value="Create" class="btn btn-lg bg-success text-light float-end"> 
+                    </div>
+                </div>
+            </div>
+        </form>      
+        <!-------------------------Ending of Form-------------------->
+    </body>
+</html>

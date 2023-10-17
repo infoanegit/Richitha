@@ -1,0 +1,322 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+html{
+    scroll-behavior: smooth;  
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+    padding-right:0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.background-img{
+    background-position: center;
+    background-size: cover;
+    background-image: url("/assests/images/mountains-8173221_1280.webp"),linear-gradient(rgba(129, 20, 71, 0.6),rgba(153, 72, 185, 0.6));
+    height: 100vh;
+    width: 100%;
+    background-blend-mode: overlay;
+}
+.row {
+    margin: 0px;
+    padding: 30px 0px;
+}
+nav{
+    background-color: white;
+}
+.my-name{
+    color: rgb(32, 19, 206);
+    font-size: 20px;
+    font-weight: 900;
+    padding-left: 345px;
+    padding-top: 10px;
+}
+.nav-link{
+    font-size: 15px;
+}
+.navbar-container{
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.background-text{
+    position: absolute;
+    top: 28%;
+    left: 0%;
+}
+.container h1{
+    color: white;
+    font-size: 50px;
+    font-weight: 900;
+    padding: 10px;
+    letter-spacing: 2px;
+}
+.container .trainee{
+    font-size: 20px;
+    color: white;
+    padding: 0px;
+}
+.download-btn{
+    border: 1px solid #0805ac;
+    background-color: #0805ac;
+    padding: 15px;
+    color: white;
+}
+.aboutme{
+    font-weight: 900;
+}
+.row .careerobjective{
+    color: #3c4258;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 50px 20px 30px 20px;
+}
+.row .prof-exposure{
+    color: #7f8083;
+    padding:35px  16px;
+}
+.d-flex p{
+    color: #3c4258;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.d-flex p:last-child{
+    color: #7f8083;
+    font-weight: 600;
+}
+.row span i{
+  
+    color: #fff;
+    display: inline-block;
+    border: 2px solid;
+    margin-left: 20px;
+    border-radius: 8px;
+    width: 30px;
+    height: 30px;
+    line-height: 28px;
+    text-align: center;
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0px;
+    padding: 0px;
+}
+.icon-bar{
+    color: white;
+    display: flex;
+    justify-content: center;
+     align-items: center;
+    position: absolute;
+    bottom: 0;
+    width: 92%;
+     height: 70px;
+    background-color: rgb(72, 42, 238);
+}
+.horizontal-border{
+    display: flex;
+    align-items: center;
+    padding: 26px 0 30px;
+}
+#fa-circle{
+    font-size: 10px;
+    color: #d92cf9;
+    margin-right: 5px
+}
+.horizontal{
+    display: inline-block;
+    background: #b2c1ce;
+    height: 1px;
+    width: 400px;
+}
+.background-color{
+    background-color: #f9fbfd;
+    margin-top: 100px;
+}
+.progress{
+    border-radius: 3px;
+    overflow: visible;
+    background: #e6ecf3;
+    height: 8px;
+    margin-top: 15px;
+    width: 85%;
+    margin-bottom: 37px;
+}
+.per{
+    width: 10%;
+    font-weight: 400;
+    color:#2013ce;
+    position: relative;
+    top: 6px;
+    left: 20px;
+}
+.single-progress{
+    display: flex;
+    padding-left: 10px;
+}
+.bar{
+    background: rgb(72, 42, 238);
+    border-radius: 3px;
+}
+.project{
+    font-size: 25px;
+    font-weight: 800;
+    color: #d92cf9;
+    padding: 10px 0px;
+}
+.description{
+    color:#2013ce ;
+    font-weight: 700;
+    padding: 10px 0px;
+}
+.pro-para{
+    color:#7f8083 ;
+    font-weight: 700;
+    padding:10px 0px;
+    font-size: 19px;
+}
+.pro-para1{
+    color:#7f8083 ;
+    font-weight: 700;
+    padding:10px 0px;
+    font-size: 16px;
+}
+.project-3{
+    position: relative;
+    bottom: 280px;
+}
+.sub-title{
+    padding: 0px 0px 10px 45px;
+}
+.award{
+    color: #d92cf9;
+    font-weight: 800;
+    padding: 125px 0px 10px 45px;
+}
+#achievements-section{
+    background-color: rgb(255, 242, 223);
+}
+.personal-info{
+    padding: 10px 20px;
+    border: 1px solid #2013ce;
+    background-color: #2013ce;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+.dot h5{
+    color: #d92cf9;
+    font-size: 16px;
+    font-weight: 900;
+    padding: 14px 0px 0px 85px;
+}
+.details p{
+    font-size: 16px;
+    padding:2px 0px 0px 70px ;
+}
+.detail p{
+    font-size: 16px;
+    padding:3px 0px 0px 70px ;
+    font-weight: 700;
+}
+.background-color1{
+    background-color: #e5e8f1;
+    padding-bottom: 50px;
+}
+.submit-btn{
+    background-color: #d92cf9;
+    color: white;
+    font-size: 20px;
+    border-radius: 0px;
+}
+.submit-btn:hover{
+    background-color: #2013ce;
+}
+#award{
+    font-size: 20px;
+    padding-left: 0px;
+    color: #2013ce;
+}
+.flex{
+    display: flex;
+}
+.progress-bar {
+    transition: width 1.5s ease-in-out;
+}
+span>p:first-child{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0px;
+    padding: 10px 0px 5px 105px;
+}
+span>p:last-child{
+    color: #7f8083 ;
+    padding: 0px 0px 5px 105px;
+}
+span>p a:last-child{
+    color: #7f8083;
+    text-decoration: none;
+}
+span>p a:hover{
+   color:#d92cf9;
+}
+.form:focus{
+    outline: none !important;
+    box-shadow: none;
+}
+.to-link{
+    padding: 20px 100px;
+}
+.to-link i{
+    padding: 10px;
+    font-weight: 800;
+    color: #2b2b2c ;
+    font-size: 25px;
+}
+.to-link i:hover{
+    color: #2013ce;
+}
+.edu{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.container-fluid .background-img .container .row .col-sm-12 a button:hover{
+    color: white;
+}
+.collapse .navbar-nav .nav-item a:hover{
+    color: #d92cf9;
+}
+.collapse .navbar-nav .nav-item a{
+    color: black;
+    font-size: 15px;
+    padding: 0px 15px;
+ }
+ .col-sm-6 {
+    padding: 5px 10px 10px 0px;
+}
+p i{
+    font-size: 16px;
+    font-weight: 800;
+    padding: 0px 10px;
+    color: #d92cf9;
+}
+.navbar-dark .navbar-toggler {
+    color: rgba(255,255,255,.5);
+    border-color: rgba(255,255,255,.1);
+}
+.email{
+    padding-right: 0px;
+}
+.copyright{
+    color: #7f8083;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    padding-top: 10px;
+}
+.assets{
+    padding: 0px;
+}

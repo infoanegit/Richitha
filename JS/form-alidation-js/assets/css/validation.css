@@ -1,0 +1,40 @@
+#heading{
+    font-size: 40px;
+    font-weight: 600;
+}
+.head{
+    background-color: rgb(166, 217, 243);
+}
+#labels{
+    color: rgb(4, 151, 102);
+    font-size:18px;
+    font-weight: 900;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.row{
+    background-color: rgb(236, 242, 237);
+}
+input{
+    font-size: 30px;
+}
+.radio{
+    font-size: 20px;
+    font-weight: 900;
+    color: rgb(55, 53, 53);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#range{
+    color: black;
+}
+.form-control:focus{
+    outline: none !important;
+    box-shadow:none;
+    border-color: red;
+   
+}
+.form-border{
+    border: 20px solid rgb(24, 81, 122);
+}
+.error{
+    color: red;
+}
